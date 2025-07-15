@@ -1,0 +1,9 @@
+# Ignore venvs
+env_*/
+
+# Ignore logs
+logs/
+
+# Ignore model weights and prototxt
+*.pb
+*.pbtxt
