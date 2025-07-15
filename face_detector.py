@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
 Real-time Face Detection using OpenCV
-A professional-grade implementation for detecting faces from webcam feed
+An advanced implementation for detecting faces from webcam feed
 with optimized performance and robust error handling.
 """
 
@@ -272,7 +271,6 @@ def main():
         cap.release()
         cv2.destroyAllWindows()
         logger.info("Face detection stopped")
-
 
 if __name__ == "__main__":
     main()
